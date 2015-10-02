@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.10.5//EN
+N:Dreyer;Jonathan;;;
+FN:Jonathan Dreyer
+TITLE:Engineer
+EMAIL;type=INTERNET;type=WORK;type=pref:me@jdreyer.ch
+TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:+41 78 739 17 31
+ADR;type=HOME;type=pref:;;Rue de Maillefer 10;Neuchatel;;2000;Suisse
+NOTE:The latest version of vcard can be get on http://jdreyer.ch/vcard.vcf
+item1.URL;type=pref:jdreyer.ch
+item1.X-ABLabel:_$!<HomePage>!$_
+SOURCE:http://jdreyer.ch/vcard.vcf
+UID:dab110f3-4b27-4ea0-8c28-295df726fe5d
+X-ABUID:DAB110F3-4B27-4EA0-8C28-295DF726FE5D:ABPerson
+END:VCARD
