@@ -338,6 +338,41 @@ a,
 }
 
 /* ---------------------------------------------- /*
+ * Scroll-up
+/* ---------------------------------------------- */
+
+.scroll-up {
+	border-style: solid;
+	border-width: 0 0 52px 52px;
+	border-color: transparent transparent rgba(27, 18, 18, 0.6) transparent;
+	position: fixed;
+	display: none;
+	right: 0px;
+	bottom: 0px;
+	width: 0;
+	height: 0;
+	z-index: 999;
+	-webkit-transition: -webkit-transform 0.8s ease-in-out;
+		  -moz-transition: -moz-transform 0.8s ease-in-out;
+			  -o-transition: -o-transform 0.8s ease-in-out;
+					transition: transform 0.8s ease-in-out;
+}
+
+.scroll-up a {
+	position: relative;
+	display: inline-block;
+	padding: 22px;
+	bottom: 0px;
+	left: -44px;
+	font-size: 18px;
+	color: #FFF;
+}
+
+.scroll-up a:hover {
+	color: #EF4836;
+}
+
+/* ---------------------------------------------- /*
  * General
 /* ---------------------------------------------- */
 
@@ -592,8 +627,10 @@ h3 > .fa {
 }
 
 /* ---------------------------------------------- /*
- * Portfolio - simple
+ * Portfolio
 /* ---------------------------------------------- */
+
+/* Presentation */
 
 .portfolio-simple-item {
 	margin-bottom: 20px;
@@ -628,10 +665,6 @@ h3 > .fa {
 	opacity: 0;
 	color: #222;
 }
-
-/* ---------------------------------------------- /*
- * Portfolio
-/* ---------------------------------------------- */
 
 /* Ajax portfolio */
 
@@ -856,6 +889,10 @@ h3 > .fa {
 	.wrapper {
 		text-align: center;
 	}
+	
+	.scroll-up {
+		display: none !important;
+	}
 
 }
 
@@ -877,7 +914,7 @@ h3 > .fa {
 @media (max-height: 560px) and (min-width: 560px) {
 	
 	#intro {
-		min-height: 450px;
+		min-height: 500px;
 	}
 
 }
@@ -886,6 +923,14 @@ h3 > .fa {
 	
 	.aboutme {
 		padding-top: 20px;
+	}
+
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+	
+	.profile-widget h5 {
+		font-size: 13px;
 	}
 
 }
