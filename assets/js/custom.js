@@ -245,7 +245,7 @@
 			}
 			else {
 				var base64_email = 'bWVAamRyZXllci5jaA==';
-				var base_url = '//formspree.io/';
+				var base_url = 'https://formspree.io/';
 				var action = base_url + atob(base64_email);
 				
 				$.ajax({
