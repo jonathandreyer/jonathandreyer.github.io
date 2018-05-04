@@ -16,7 +16,7 @@
 		});
 
 		$('body').fitVids();
-		
+
 		$(document).keyup(function(i){
 			var owl = jQuery(".owl-carousel");
 			if(i.keyCode==37) {

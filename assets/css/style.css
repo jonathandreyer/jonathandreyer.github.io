@@ -96,7 +96,7 @@ a,
 .progress,
 .form-control,
 .modal-content,
-.form-control:hover, 
+.form-control:hover,
 .form-control:focus {
 	-webkit-box-shadow: none;
 			box-shadow: none;
@@ -490,8 +490,8 @@ h3 > .fa {
 	color: #FFF !important;
 }
 
-.navbar-custom .nav li a:hover, 
-.navbar-custom .nav li a:focus, 
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
 	background: none;
 	outline: 0;
@@ -853,7 +853,7 @@ h3 > .fa {
 	left: 0;
 	margin: 0;
 	text-align: center;
-	top: 65%; 
+	top: 65%;
 }
 
 .status-mes h4 {
@@ -889,7 +889,7 @@ h3 > .fa {
 	.wrapper {
 		text-align: center;
 	}
-	
+
 	.scroll-up {
 		display: none !important;
 	}
@@ -897,7 +897,7 @@ h3 > .fa {
 }
 
 @media (max-height: 570px){
-	
+
 	#intro .container {
 		top: 25%;
 	}
@@ -908,11 +908,11 @@ h3 > .fa {
 	#intro {
 		min-height: 550px;
 	}
-	
+
 }
 
 @media (max-height: 560px) and (min-width: 560px) {
-	
+
 	#intro {
 		min-height: 500px;
 	}
@@ -920,7 +920,7 @@ h3 > .fa {
 }
 
 @media (max-width: 991px) and (min-width: 767px) {
-	
+
 	.aboutme {
 		padding-top: 20px;
 	}
@@ -928,7 +928,7 @@ h3 > .fa {
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-	
+
 	.profile-widget h5 {
 		font-size: 13px;
 	}
